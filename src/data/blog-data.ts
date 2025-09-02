@@ -1,0 +1,111 @@
+import { IBlog } from '@/types/blog-d-t';
+import img1 from '@/assets/images/blog/blog_img_01.jpg';
+import img2 from '@/assets/images/blog/blog_img_02.jpg';
+import img3 from '@/assets/images/blog/blog_img_03.jpg';
+import img4 from '@/assets/images/blog/blog_img_04.jpg';
+
+
+const blog_data: IBlog[] = [
+  {
+    id: 1,
+    img: img1,
+    date: '14 AUG 2025',
+    title: 'NIIRA 2025 Signed into Law by President Tinubu',
+    author: 'NIA',
+    post_info: 'NIA · 3 min · Regulation',
+    category: 'Legislation',
+    page: 'blog-grid',
+  },
+  {
+    id: 2,
+    img: img2,
+    date: '11 AUG 2025',
+    title: 'Insurance Stocks Surge Strongly After Reform Announcement',
+    author: 'Insurance Journal via Bloomberg',
+    post_info: 'Insurance Journal · 4 min · Market Update',
+    category: 'Market Trends',
+    page: 'blog-grid',
+  },
+  {
+    id: 3,
+    img: img3,
+    date: '06 AUG 2025',
+    title: 'Reuters: Sweeping Reforms Coming to Insurance Sector',
+    author: 'Reuters',
+    post_info: 'Reuters · 5 min · Analysis',
+    category: 'In-Depth',
+    page: 'blog-grid',
+  },
+  {
+    id: 4,
+    img: img4,
+    date: '05 AUG 2025',
+    title: 'NIA Launches Innovation Lab to Drive Digital Insurance',
+    author: 'NIA',
+    post_info: 'NIA · 3 min · Digital Innovation',
+    category: 'Technology',
+    page: 'blog-grid',
+  },
+  {
+    id: 5,
+    img: img1,
+    date: '27 AUG 2025',
+    title: 'NAICOM, CAC Agree on 12-Month Recapitalization Timeline',
+    author: 'NAICOM',
+    post_info: 'NAICOM · 2 min · Regulation',
+    category: 'Policy',
+    page: 'blog-grid',
+  },
+  {
+    id: 6,
+    img: img2,
+    date: '08 AUG 2025',
+    title: 'Analysts Say NIIRA 2025 Will Reshape the Industry',
+    author: 'Nairametrics',
+    post_info: 'Nairametrics · 4 min · Commentary',
+    category: 'Insight',
+    page: 'blog-grid',
+  },
+  {
+    id: 7,
+    img: img3,
+    date: '11 AUG 2025',
+    title: 'Punch: NIIRA Open to Overcoming Long-standing Challenges',
+    author: 'Punch',
+    post_info: 'Punch · 4 min · Editorial',
+    category: 'Opinion',
+    page: 'blog-grid',
+  },
+  {
+    id: 8,
+    img: img4,
+    date: '11 AUG 2025',
+    title: 'Nigeria’s NIIRA 2025 Demands Risk-Based Capital Levels',
+    author: 'Reuters',
+    post_info: 'Reuters · 3 min · Market Policy',
+    category: 'Regulation',
+    page: 'blog-grid',
+  },
+  {
+    id: 9,
+    img: img1,
+    date: '08 AUG 2025',
+    title: 'Analysis: High-Yield Insurance Opportunities Post-NIIRA',
+    author: 'Ainvest',
+    post_info: 'Ainvest · 3 min · Investor Guide',
+    category: 'Investor Insight',
+    page: 'blog-grid',
+  },
+  {
+    id: 10,
+    img: img2,
+    date: '02 AUG 2025',
+    title: 'Guardian: Insurers Must Match NIIRA with Execution Excellence',
+    author: 'The Guardian',
+    post_info: 'The Guardian · 4 min · Industry Voice',
+    category: 'Execution',
+    page: 'blog-grid',
+  },
+];
+
+export default blog_data;
