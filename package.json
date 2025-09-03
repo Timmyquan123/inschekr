@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/build-car-manifest.mjs --csv data/carimagery/vehicles.csv --out public/vehicles && next build",
     "start": "next start",
     "lint": "next lint"
   },
+
+  
   "dependencies": {
     "@hookform/resolvers": "^3.3.1",
     "@popperjs/core": "^2.11.8",
@@ -46,4 +48,5 @@
     "iconv-lite": "^0.7.0",
     "typescript": "latest"
   }
+  
 }
