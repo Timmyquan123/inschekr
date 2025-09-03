@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build-car-manifest.mjs --csv data/carimagery/vehicles.csv --out public/vehicles && next build",
-    "start": "next start",
+    "build": "next build",
+    "build:manifest": "node scripts/build-car-manifest.mjs --csv data/carimagery/vehicles.csv --out public/vehicles",
+ "start": "next start",
     "lint": "next lint"
   },
 
