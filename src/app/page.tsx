@@ -12,7 +12,7 @@ import HomeBlogs from "@/components/blogs/home-blogs";
 import FooterTwo from "@/layout/footer/footer-two";
 
 export const metadata: Metadata = {
-  title: "Home Page InSchekr",
+  title: "InSchekr – Car Details, Value & Insurance in One Place",
 };
 
 export default function HomePageSeven() {
